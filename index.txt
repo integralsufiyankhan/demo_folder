@@ -1,0 +1,97 @@
+form atributes :
+1. method: used to define the method b which data will be send 
+get:(dfault) data will be visible in url
+post: data will not be visible on url.
+
+action: used to define the url where the data will be sumbitted.
+------------------------------------------------
+bina form tag ke koi data enter hi nhi hoga.
+action attrribure me ham backed ke page ko add krte hai 
+ye batata hai ki data kha pe bejna hai 
+method se data kya bheja gya. post aor get.
+-------------------------------------------
+
+input validation:
+
+1. required : used to define that ther must be some value in input, empty input will not be submitted.
+esko agar likh doge to data likhan jaurui ho jata hai.
+<input type="text" name="name" required><br><br>
+
+
+
+
+2. minlength:  used to define the 
+minimum character lentgh of that
+ required before submitting the form.
+ <input type="text" name="name" required><br><br>
+ eska bhi use input tag me krna hai .. agar 2 se km letter hai to subit nhi hoga
+
+ 3. Maxlength: used to define the maximum number of charactes 
+ which user can enter.
+ <input type="text" name="name" required Maxlength="5"><br><br>
+
+ 
+4. agar dono pass krna ho to kr skte hai.
+5. min: use to define the minimumvalue
+ that user have to pass. 
+ (used in  number, range , etc)
+
+6.max: use to define the maximum value 
+ that user have to pass. 
+ (used in  number, range , etc)
+
+
+ min=jo value me check krta hai.
+ minlength = digit
+
+ 7. readonly: used to define that user cnanot type in that input.
+ mtlb kya hai eska ? mtlb ki
+  --input me aap kuch nhi kr skte hai bs
+  use dekh skte hai bs
+  --maine maan lo kuch input me likh diya aor mai cahhta hu ki use koi edit na kr paye bs use dekh paye to 
+  value=" sufiyan" likh krke readonly lga dijiye 
+placeholder: user to define the hind for an input.
+
+---<hr> horizontal role (line) ke use krte hai.
+
+
+other form element:
+1.label: used to define the field name of input.
+label ka use kya hota hai eska use ye hota hai ham id deke input tag me label se connect krte hai 
+ki jaise name pe click krte hai to input box auto focus ho jata hai.
+
+screen recorder ese pdke bta deta hai
+ ki ander kya likha hai.
+ using this can increase accesibility and we can use aurtofocus feature(when use click of label . inoput gets actuve), but first we have  to connect input with label 
+
+ connecting label with inpot:
+  1. using id: pass the id to that input element 
+
+warpping:
+
+<label>
+    Full Name:
+    <input type="text" name="fullname">
+</label>
+
+select: used to create the dropdown :
+tags used: <select></select>: container taht will contain different options,
+
+<option></option>: used to create the option to select by the user.
+
+textarea: used when we want ot take large inpout from user.
+
+
+creating form section: 
+user for large forms when we want do diveid a form into different subsetions 
+
+tags used:
+
+<fieldset></fieldset: used to create a section inside form.
+<legend></legend>: used to 
+
+
+
+
+
+
